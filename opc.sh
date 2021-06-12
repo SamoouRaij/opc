@@ -111,8 +111,8 @@ EOF
 
 # Place configuration.php
         # Change password
-        password="($PASS)"
-       mysql -uroot -e "USE $DBUSER; UPDATE oc_user set \`password\` = MD5('$password');"
+#        password="($PASS)"
+#      mysql -uroot -e "USE $DBUSER; UPDATE oc_user set \`password\` = MD5('$password');"
         rm -rf $SITEDIR/install
         rm -rf /home/$user/web/$domain/$Opencart
 #
